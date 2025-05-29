@@ -1,7 +1,7 @@
 {
-  "name": "test-opik-mcp",
-  "version": "0.0.1",
-  "description": "test opik mcp",
+  "name": "comet-opik-mcp",
+  "version": "0.0.2",
+  "description": "comet opik mcp",
   "type": "module",
   "bin": {
     "opik-mcp": "build/index.js"
@@ -30,11 +30,11 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "yargs": "^17.7.2",
-    "zod": "^3.24.2"
+    "zod": "^3.24.2",
+    "@modelcontextprotocol/sdk": "^1.6.1"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@modelcontextprotocol/sdk": "^1.6.1",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.12",
